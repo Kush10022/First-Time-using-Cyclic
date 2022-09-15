@@ -25,7 +25,7 @@ function onHttpStart() {
 
 // setup a 'route' to listen on the default url path (http://localhost)
 app.get("/", function(req,res){
-    res.send("Kush Pate student id:(104006218) <br /><a href='/about'>Go to the about page</a>");
+    res.send("Kush Pate student id: (104006218) <br /><a href='/about'>Go to the about page</a>");
 });
 
 // setup another route to listen on /about
